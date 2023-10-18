@@ -53,7 +53,7 @@
     "jest-junit": "^15",
     "jsii": "1.x",
     "jsii-diff": "^1.59.0",
-    "jsii-docgen": "^1.8.110",
+    "jsii-docgen": "^9.2.2",
     "jsii-pacmak": "^1.59.0",
     "jsii-rosetta": "1.x",
     "npm-check-updates": "^16",
@@ -97,7 +97,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "homepage": "https://github.com/seeebiii/ses-email-forwarding",
-  "version": "0.5.0",
+  "version": "0.0.0",
   "jest": {
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.ts?(x)",

@@ -6,7 +6,7 @@ const {
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Sebastian Hesse',
   authorAddress: 'info@sebastianhesse.de',
-  cdkVersion: '2.26.0',
+  cdkVersion: '2.101.1',
   cdkVersionPinning: false,
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
