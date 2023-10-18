@@ -11,7 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
   name: 'ses-email-forwarding',
-  repositoryUrl: 'git@github.com:seeebiii/ses-email-forwarding.git',
+  repositoryUrl: 'git@github.com:nightcrawler-/ses-email-forwarding.git',
 
   /* ConstructLibraryOptions */
   catalog: {
@@ -36,7 +36,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   /* NodePackageOptions */
   devDeps: ['esbuild', '@types/aws-lambda'],
-  bundledDeps: ['aws-lambda-ses-forwarder', 'aws-sdk', 'aws-lambda', '@seeebiii/ses-verify-identities@4.0.1'],
+  bundledDeps: ['aws-lambda-ses-forwarder', 'aws-sdk', 'aws-lambda', '@nyawaya/ses-email-forwarding@0.0.0'],
   homepage: 'https://github.com/seeebiii/ses-email-forwarding',
   keywords: ['aws',
     'aws-cdk',
@@ -50,8 +50,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     'cdk'],
   license: 'MIT',
   licensed: true,
-  packageName: '@seeebiii/ses-email-forwarding',
-  repository: 'https://github.com/seeebiii/ses-email-forwarding',
+  packageName: '@nyawaya/ses-email-forwarding',
+  repository: 'https://github.com/nightcrawler-/ses-email-forwarding',
 
   /* NodeProjectOptions */
   antitamper: false,
