@@ -1,8 +1,8 @@
 {
-  "name": "@seeebiii/ses-email-forwarding",
+  "name": "@simplepay/ses-email-forwarding",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seeebiii/ses-email-forwarding"
+    "url": "https://github.com/nightcrawler-/ses-email-forwarding"
   },
   "scripts": {
     "build": "npx projen build",
